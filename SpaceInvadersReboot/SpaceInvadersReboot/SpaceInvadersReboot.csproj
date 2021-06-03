@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="GameOver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Scoreboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StartScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="GameScreen - Copy %282%29 - Copy.resx">
+      <DependentUpon>GameScreen - Copy (2).resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="GameScreen - Copy %282%29.resx">
+      <DependentUpon>GameScreen.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="GameScreen - Copy %283%29.resx">
+      <DependentUpon>GameScreen.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="GameScreen - Copy - Copy %282%29.resx">
+      <DependentUpon>GameScreen - Copy.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="GameScreen - Copy - Copy - Copy.resx">
+      <DependentUpon>GameScreen - Copy - Copy.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="GameScreen - Copy - Copy.resx">
+      <DependentUpon>GameScreen - Copy.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="GameScreen - Copy.resx">
+      <DependentUpon>GameScreen.resx</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Bitmaps\" />
+  </ItemGroup>
+
+</Project>
